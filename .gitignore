@@ -1,0 +1,21 @@
+# Local History for Visual Studio Code
+coverage/
+.history/
+.vscode/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+# Node.js
+node_modules/
+
+# Playwright
+.playwright/
+playwright/.auth/
+playwright-report/
+test-results/
+
+#ignore .env files
+env/*.env
+**/.env
+**/*.env

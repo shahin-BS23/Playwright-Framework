@@ -1,0 +1,28 @@
+{
+  "name": "e2e-automation-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "env:demo": "cross-env test_env=demo npx playwright test",
+    "env:stage": "cross-env test_env=stage npx playwright test"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^9.9.0",
+    "@playwright/test": "^1.54.1",
+    "@skilbourn/playwright-report-summary": "^1.1.1",
+    "@types/node": "^24.1.0",
+    "cross-env": "^10.0.0",
+    "v8-to-istanbul": "^9.3.0"
+  },
+  "dependencies": {
+    "csv-parse": "^6.1.0",
+    "csv-stringify": "^6.6.0",
+    "dotenv": "^17.2.1",
+    "xlsx": "^0.18.5"
+  }
+}
