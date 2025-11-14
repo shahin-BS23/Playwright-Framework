@@ -1,4 +1,4 @@
-# SMB DB Automation
+# SMB Automation
 
 End-to-end automation test framework for the SMB System using Playwright and TypeScript.
 
